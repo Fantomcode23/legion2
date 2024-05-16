@@ -11,13 +11,29 @@
 - [Contributors](#contributors)
 
 ## Introduction
-A crossword is a word puzzle that usually takes the form of a square or a rectangular grid of white-and black-shaded squares. The game's goal is to fill the white squares with letters, forming words or phrases, by solving clues, which lead to the answers.
+Cyber Buddy is an all-in-one cybersecurity application designed to empower users with essential tools and resources to enhance their digital security posture. From vulnerability scanning to AI-powered spam detection and informative news updates, Cyber Buddy has you covered.
 
 
 ## Features
-* User can login/register to start the game
-* User can view completed and incompleted game in dashboard
-* User get one clue when they start the game.
+# 1. Login Page with JWT Token
+Securely access the application with a login page utilizing JSON Web Tokens (JWT) for authentication.
+Protect your account from unauthorized access with industry-standard security practices.
+# 2. Vulnerability Scanner
+Scan your system for potential vulnerabilities and security weaknesses.
+Receive detailed reports and recommendations to address identified vulnerabilities and enhance your system's security.
+# 3. Image Steganography
+Encrypt sensitive information within images using steganography techniques.
+Safely transmit confidential data without raising suspicion.
+# 4. AI Spam Detection
+Utilize advanced artificial intelligence algorithms to detect and filter spam emails effectively.
+Keep your inbox clutter-free and safeguard against phishing attacks.
+# 5. AI Chat Bot Support
+Interact with an AI-powered chatbot to learn more about various cyber-based attacks and security best practices.
+Get personalized recommendations and guidance tailored to your needs.
+# 6. Cybersecurity News Section
+Stay informed about the latest developments and trends in cybersecurity.
+Access curated news articles and updates to stay ahead of emerging threats.
+
 
 ## Requirements
 * [`npm`](https://www.npmjs.com/get-npm)
@@ -32,7 +48,7 @@ A crossword is a word puzzle that usually takes the form of a square or a rectan
 
 1. Clone this repository
    ```
-   $ https://github.com/Kr1sh-gupta/cyberbuddy.git
+   $ https://github.com/Fantomcode23/legion2.git
    ```
 2. Install all depedencies on the package.json
    ```
