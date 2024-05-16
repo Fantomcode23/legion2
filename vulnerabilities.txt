@@ -1,0 +1,124 @@
+Directory Traversal Vulnerability:
+
+Description: Directory traversal vulnerabilities occur when an attacker can manipulate file paths to access files and directories outside the intended scope. This can lead to unauthorized access to sensitive files.
+Mitigation: Sanitize and validate file paths, and implement access controls.
+
+
+SQL Injection Vulnerability:
+
+Description: SQL injection vulnerabilities occur when attackers can inject malicious SQL code into input fields, potentially leading to unauthorized database access or data manipulation.
+Mitigation: Use prepared statements or parameterized queries, and validate and sanitize user input.
+
+Cross-Site Scripting (XSS) Vulnerability:
+
+Description: XSS vulnerabilities occur when attackers inject malicious scripts into web applications, potentially leading to the execution of scripts in users' browsers.
+Mitigation: Encode and sanitize user input, and implement security headers.
+
+Command Injection Vulnerability:
+
+Description: Command injection vulnerabilities occur when attackers can inject and execute malicious commands on a server, potentially leading to code execution.
+Mitigation: Avoid using user input directly in command execution and sanitize input properly.
+Remote File Inclusion Vulnerability:
+
+Description: Remote File Inclusion vulnerabilities occur when attackers can include and execute files from remote servers, potentially leading to code execution or data exposure.
+Mitigation: Avoid including files from untrusted sources and validate user input.
+Server-Side Request Forgery (SSRF) Vulnerability:
+
+Description: SSRF vulnerabilities occur when attackers manipulate server requests to access internal resources or perform actions on behalf of the server, potentially leading to data exposure or attacks on internal systems.
+Mitigation: Implement input validation, restrict requests to trusted domains, and configure network security properly.
+Unvalidated Redirect Vulnerability:
+
+Description: Unvalidated Redirect vulnerabilities occur when attackers trick users into visiting malicious websites through open redirects, potentially leading to phishing or other attacks.
+Mitigation: Validate and sanitize redirect URLs and avoid relying solely on user-provided input.
+Cross-Site Request Forgery (CSRF) Vulnerability:
+
+Description: CSRF vulnerabilities occur when attackers trick users into performing actions on a web application without their consent, potentially leading to unauthorized actions.
+Mitigation: Implement anti-CSRF tokens and validate the origin of requests.
+Remote Code Execution (RCE) Vulnerability:
+
+Description: RCE vulnerabilities occur when attackers can execute arbitrary code on a server, potentially leading to full server compromise.
+Mitigation: Avoid executing untrusted code and validate user input.
+Cross-Site Script Inclusion (XSSI) Vulnerability:
+
+Description: XSSI vulnerabilities occur when attackers can include malicious scripts in web applications, potentially leading to data theft or attacks.
+Mitigation: Implement proper security controls and validation to prevent unauthorized script inclusion.
+File Upload Vulnerability:
+
+Description: File Upload vulnerabilities occur when attackers can upload malicious files to a server, potentially leading to code execution or data exposure.
+Mitigation: Validate and sanitize uploaded files, and restrict file types and sizes.
+Insecure Direct Object Reference (IDOR) Vulnerability:
+
+Description: IDOR vulnerabilities occur when an attacker can access objects or data they are not authorized to access, potentially leading to unauthorized access to sensitive information.
+Mitigation: Implement proper access control and ensure that users can only access their own resources.
+XML External Entity (XXE) Vulnerability:
+
+Description: XXE vulnerabilities allow attackers to exploit XML parsers and potentially access internal files or execute remote requests.
+Mitigation: Disable external entity parsing or use a safe parser, and restrict access to sensitive resources.
+Server-Side Template Injection (SSTI) Vulnerability:
+
+Description: SSTI vulnerabilities occur when an attacker can inject malicious code into templates, leading to code execution and potentially server compromise.
+Mitigation: Sanitize and validate template input, and avoid using user-provided input in templates.
+Remote Code Inclusion (RCI) Vulnerability:
+
+Description: RCI vulnerabilities allow attackers to include and execute remote code, potentially leading to code execution and server compromise.
+Mitigation: Avoid including code from untrusted sources and validate user input.
+Server-Side Template Injection (SSTI) Vulnerability (for specific templating engines like Jinja2):
+
+Description: SSTI vulnerabilities specific to certain templating engines (e.g., Jinja2) occur when an attacker can inject malicious code into templates, leading to code execution.
+Mitigation: Sanitize and validate template input, and avoid using user-provided input in templates.
+Insecure Deserialization Vulnerability:
+
+Description: Insecure deserialization vulnerabilities occur when attackers can exploit deserialization of data objects, potentially leading to code execution.
+Mitigation: Implement safe deserialization practices and validate serialized data.
+Server-Side Request Forgery (SSRF) via DNS rebinding Vulnerability:
+
+Description: SSRF via DNS rebinding vulnerabilities occur when attackers use DNS manipulation to make the server access internal resources.
+Mitigation: Implement input validation, restrict requests to trusted domains, and configure DNS properly.
+Clickjacking Vulnerability:
+
+Description: Clickjacking vulnerabilities occur when an attacker tricks users into interacting with hidden malicious elements, potentially leading to unauthorized actions.
+Mitigation: Implement X-Frame-Options or Content Security Policy headers to prevent clickjacking.
+Security Misconfiguration:
+
+Description: Security misconfiguration vulnerabilities result from improperly configured security settings, allowing unauthorized access to resources or sensitive information.
+Mitigation: Regularly audit and review security configurations and ensure they are set up correctly.
+Cross-Site Scripting (XSS) via DOM-based Vulnerability:
+
+Description: DOM-based XSS vulnerabilities occur when an attacker injects malicious code that is executed by manipulating the Document Object Model (DOM) in the victim's browser.
+Mitigation: Validate and sanitize user input, implement security headers, and encode output properly.
+Open Redirect Vulnerability via data: URL:
+
+Description: Open redirect vulnerabilities occur when attackers trick users into visiting a malicious site through a data: URL, potentially leading to phishing or other attacks.
+Mitigation: Validate and sanitize redirect URLs and avoid relying solely on user-provided input.
+Server-Side Request Forgery (SSRF) via Server-Side Template Injection (SSTI):
+
+Description: SSRF via SSTI vulnerabilities occur when an attacker uses template injection to trigger SSRF attacks, potentially accessing internal resources.
+Mitigation: Sanitize and validate template input and implement input validation.
+Cross-Site Script Inclusion (XSSI) via JSONP Vulnerability:
+
+Description: XSSI via JSONP vulnerabilities allow attackers to include malicious scripts through JSONP requests, potentially leading to data theft and attacks.
+Mitigation: Avoid using JSONP or implement proper security controls and validation.
+Server-Side Denial of Service (DoS) via XML Bomb Vulnerability:
+
+Description: Server-Side DoS via XML bomb vulnerabilities allow attackers to craft XML data that overwhelms server resources and causes a denial of service.
+Mitigation: Implement rate limiting and restrict the processing of XML data.
+Security Headers Misconfiguration:
+
+Description: Security headers misconfiguration vulnerabilities result from improperly configured security headers, potentially exposing web applications to various threats.
+Mitigation: Ensure proper configuration of security headers such as Content-Security-Policy, X-Frame-Options, and others.
+Cross-Site Request Forgery (CSRF) via Flash Vulnerability:
+
+Description: CSRF via Flash vulnerabilities occur when attackers use Flash content to trick users into performing unauthorized actions on web applications.
+Mitigation: Implement anti-CSRF tokens and validate the origin of requests.
+Server-Side Template Injection (SSTI) via Twig Vulnerability:
+
+Description: SSTI via Twig vulnerabilities occur when attackers can inject malicious code into Twig templates, leading to code execution.
+Mitigation: Sanitize and validate template input and avoid using user-provided input in templates.
+Cross-Site Scripting (XSS) via SVG Vulnerability:
+
+Description: XSS via SVG vulnerabilities occur when attackers inject malicious code in Scalable Vector Graphics (SVG) images, potentially leading to script execution.
+Mitigation: Validate and sanitize user input and properly encode output.
+Server-Side Request Forgery (SSRF) via XXE Vulnerability:
+
+Description: SSRF via XXE vulnerabilities occur when attackers exploit XML External Entity (XXE) vulnerabilities to trigger SSRF attacks, potentially accessing internal resources.
+Mitigation: Disable external entity parsing or use a safe parser and restrict access to sensitive resources.
