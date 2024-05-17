@@ -78,19 +78,18 @@ Access curated news articles and updates to stay ahead of emerging threats.
 
 ## Screenshoot
 <div align="center">
-    <img width="200" src="./images/1.jpeg"> 
-    <img width="200" src="./images/2.jpeg">  
-    <img width="200" src="./images/3.jpeg"> 
-    <img width="200" src="./images/4.jpeg">    
-    <img width="200" src="./images/5.jpeg">
-    <img width="200" src="./images/6.jpeg">
-    <img width="200" src="./images/7.jpeg">
-    <img width="200" src="./images/8.jpeg">
-    <img width="200" src="./images/9.jpeg">
-    <img width="200" src="./images/10.jpeg">
-      
-
+    <img width="200" src="./images/1.jpeg" style="margin: 10px;"> 
+    <img width="200" src="./images/2.jpeg" style="margin: 10px;">  
+    <img width="200" src="./images/3.jpeg" style="margin: 10px;"> 
+    <img width="200" src="./images/4.jpeg" style="margin: 10px;">    
+    <img width="200" src="./images/5.jpeg" style="margin: 10px;">
+    <img width="200" src="./images/6.jpeg" style="margin: 10px;">
+    <img width="200" src="./images/7.jpeg" style="margin: 10px;">
+    <img width="200" src="./images/8.jpeg" style="margin: 10px;">
+    <img width="200" src="./images/9.jpeg" style="margin: 10px;">
+    <img width="200" src="./images/10.jpeg" style="margin: 10px;">
 </div>
+
 
 
 ## Contributors
